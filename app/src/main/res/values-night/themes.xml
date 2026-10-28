@@ -1,0 +1,3 @@
+<resources>
+    <style name="Theme.TasteIndia" parent="android:Theme.Material.NoActionBar" />
+</resources>
