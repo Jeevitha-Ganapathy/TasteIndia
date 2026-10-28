@@ -1,0 +1,13 @@
+{
+  "meals": [
+    {
+      "idMeal": "1002",
+      "strMeal": "Dal Makhani",
+      "strTags": null,
+      "strYoutube": "",
+      "strSource": null,
+      "strIngredient1": "Lentils",
+      "strMeasure1": "1 cup"
+    }
+  ]
+}

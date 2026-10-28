@@ -1,0 +1,19 @@
+{
+  "meals": [
+    {
+      "strMeal": "Chicken Handi",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/handi.jpg",
+      "idMeal": "1001"
+    },
+    {
+      "strMeal": "Butter Chicken",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/butter.jpg",
+      "idMeal": "1004"
+    },
+    {
+      "strMeal": "Chicken Karaage (not Indian)",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/k.jpg",
+      "idMeal": "9999"
+    }
+  ]
+}

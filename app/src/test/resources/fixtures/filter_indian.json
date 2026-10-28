@@ -1,0 +1,29 @@
+{
+  "meals": [
+    {
+      "strMeal": "Chicken Handi",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/handi.jpg",
+      "idMeal": "1001"
+    },
+    {
+      "strMeal": "Dal Makhani",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/dal.jpg",
+      "idMeal": "1002"
+    },
+    {
+      "strMeal": "Palak Paneer",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/palak.jpg",
+      "idMeal": "1003"
+    },
+    {
+      "strMeal": "Butter Chicken",
+      "strMealThumb": "https://www.themealdb.com/images/media/meals/butter.jpg",
+      "idMeal": "1004"
+    },
+    {
+      "strMeal": "   ",
+      "strMealThumb": null,
+      "idMeal": "1005"
+    }
+  ]
+}
