@@ -3,6 +3,10 @@
 Indian-cuisine discovery app built on TheMealDB public V1 API (test key `1`).
 Kotlin · Jetpack Compose · Material 3 · Navigation Compose · Retrofit/OkHttp · kotlinx.serialization · Coroutines/Flow · DataStore · Coil.
 
+## Recording
+Demo video (list, search, combined filters, details, favourites, error/retry, state restoration):
+https://drive.google.com/file/d/12H3RJgbLoKwFsIkzT0iKhtnX06gqsivB/view?usp=drive_link
+
 ## Toolchain
 | | |
 |---|---|
@@ -15,6 +19,7 @@ Kotlin · Jetpack Compose · Material 3 · Navigation Compose · Retrofit/OkHttp
 1. Open the project folder in Android Studio and let Gradle sync.
 2. Run the `app` configuration on an emulator/device (needs internet for live data).
 3. Unit tests (offline, use fixtures in `app/src/test/resources/fixtures`): `./gradlew testDebugUnitTest`
+4. Debug APK: `./gradlew assembleDebug`
 
 ## Architecture
 `ui` (Compose screens + ViewModels) → `data` (MealRepository, DedupLoader, FavouritesStore) → `data.remote` (Retrofit API, parser/mappers, MealService) ; pure logic in `domain`.
@@ -51,16 +56,9 @@ Rendered when non-empty: name, image, category, area, ingredient/measure rows, i
 - Fixtures are hand-trimmed, representative responses (IDs/names are illustrative).
 
 ## Time spent, AI/tool-use disclosure
-- Time spent: ____ hours over ____ days (fill in honestly).
+- Time spent: 8 hours over 2 days.
 - AI tools: Claude (Anthropic) assisted with scaffolding, DTO/parser, filter logic, Compose screens, unit tests and this README. The candidate must review, run and be able to explain/modify every file.
-- Candidate notes: ____ (what you changed/debugged yourself).
-
-## Recording
-2-4 min screen recording (list, search, combined filters, details, favourites, error/retry, state restoration): add link/file here.
+- Candidate notes: Set up the TasteIndia Android project locally, configured the project for GitHub, and worked on resolving setup and build issues. Verified the project structure and prepared the codebase for execution in Android Studio.
 
 ## Attribution
 Recipe data and images © TheMealDB (https://www.themealdb.com), used under its educational test-key terms. Libraries: AndroidX/Jetpack Compose, Retrofit, OkHttp, kotlinx.serialization, kotlinx.coroutines, Coil (all Apache-2.0).
-
-
-## Commands
-`./gradlew testDebugUnitTest` (offline) | `./gradlew assembleDebug` (APK)
